@@ -1,0 +1,44 @@
+.inputsContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 80%;
+}
+
+.input {
+  width: 70%;
+  font-size: 14px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.input:focus {
+  outline: 2px solid #807973;
+  border: 2px solid #0a5e66;
+}
+
+.button {
+  font-weight: 600;
+  /*font-family: MetricWeb,sans-serif;*/
+  font-size: 14px;
+  /*min-height: 28px;
+    min-width: 60px;*/
+  padding: 6px 8px;
+  cursor: pointer;
+  background-color: #262a33;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: rgb(82, 82, 82);
+}
+
+@media (max-width: 600px) {
+  .inputsContainer {
+    width: auto;
+    padding: 2px;
+  }
+}

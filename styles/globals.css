@@ -5,13 +5,77 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
 }
 
-a {
+/*a {
   color: inherit;
   text-decoration: none;
-}
+}*/
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-container {
+    height: 150px;
+  display: flex;
+  justify-content: stretch;
+  width: 70%;
+  border-bottom: 1px solid #ccc1b7;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.section-header h1 {
+  display: flex;
+  justify-content: stretch;
+  width: 70%;
+  border-bottom: 1px solid #ccc1b7;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+/*.contents{
+   
+    width:100%;
+}*/
+
+.article-byline{
+    font-size: 16px;
+    line-height: 20px;
+    color: #990f3d;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.article-title{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.article-summary{
+    font-size: 16px;
+    line-height: 20px;
+    color: #66605c;
+    margin-top: 20px;
+}
+
+.article-date{
+    font-size: 12px;
+    line-height: 20px;
+    color: #66605c;
 }
