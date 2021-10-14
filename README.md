@@ -12,7 +12,11 @@ Built using Next.js.
 
 The aim of the project is to build a web page that is rendered on server **(SSR)** rather than client side, to achieve this I used Next.js.
 
-This is my first Next.js project and hence why I choose this over other template engines like `handlebars` or `pug` , etc.
+This is my first Next.js project and hence why I choose this over other template engines like `handlebars` or `pug` as I also never used a template engine before.
+
+The other reason why I choose Next.js in first place, is because it provides an easy developer experience such as smart bundling, route pre-fetching, server rendering and creating components level styles with CSS modules. Having all these features available is what made me implement it in this project.
+
+Regarding the deployment, it is quick and easy to deploy on Vercel (recommended), the same people who created Next.js but for this project I choose Heroku.
 
 ### The mechanism of the project is the following 🤖
 
@@ -43,17 +47,10 @@ Below is a list of some of the website features:
 
 ## Usage ⏯️
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. clone the repo
+2. `npm install` to install dependencies
+3. `npm run dev` to run
+4. Open [http://localhost:3000](http://localhost:3000) to see the results
 
 ## Learn More ℹ️
 
