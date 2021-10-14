@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This project is a web site that displays the latest headlines from Financial Time.
 
-The project fetches data from FT Headlines [API](https://developer.ft.com/portal/).
+The project fetches data from FT Headlines [API](https://developer.ft.com/portal/), visit the site to obtain a key.
 
 Built using Next.js.
 
@@ -44,10 +44,11 @@ Below is a list of some of the website features:
 - Built using JavaScript and Node.js. 
 - Deployed on Heroku: The site [link](https://ft-tech-project.herokuapp.com/) 
 - Have a similar look and feel as FT.com : Used CSS to style the page.
+- Uses FT [Origami](https://origami.ft.com/) components such as pagination
 
 ## Usage ⏯️
 
-1. clone the repo
+1. Clone the repo
 2. `npm install` to install dependencies
 3. `npm run dev` to run
 4. Open [http://localhost:3000](http://localhost:3000) to see the results
