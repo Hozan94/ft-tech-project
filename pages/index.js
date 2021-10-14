@@ -5,7 +5,6 @@ import formatDistanceToNowStrict from 'date-fns/formatDistanceToNowStrict'
 
 
 
-
 export async function getServerSideProps(context) {
     try {
         const response = await fetch(`https://api.ft.com/content/search/v1?apiKey=59cbaf20e3e06d3565778e7b6e0044a4fa7f43429198e666d8c855a0`, {
@@ -38,9 +37,10 @@ export default function Home(props) {
                 <title>FT-tech-project</title>
                 <meta name="keywords" content="financial times headlines" />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="//origami-build.ft.com/v2/bundles/css?modules=o-fonts@^3" />
             </Head>
-            <div className="section-header">
-               <h1 >Latest headlines:</h1> 
+            <div className="section-header ">
+                <h1>Latest headlines:</h1>
             </div>
             
             <section className="container">

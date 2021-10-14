@@ -25,7 +25,6 @@ body {
 }
 
 .article-container {
-    height: 150px;
   display: flex;
   justify-content: stretch;
   width: 70%;
@@ -44,38 +43,43 @@ body {
   border-bottom: 1px solid #ccc1b7;
   padding-bottom: 10px;
   margin-bottom: 0;
+  font-family: FinancierDisplayWeb, sans-serif;
 }
 /*.contents{
    
     width:100%;
 }*/
 
-.article-byline{
-    font-size: 16px;
-    line-height: 20px;
-    color: #990f3d;
-    font-weight: 600;
-    margin-bottom: 4px;
+.article-byline {
+  font-size: 16px;
+  line-height: 20px;
+  color: #990f3d;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-family: MetricWeb, sans-serif;
 }
 
-.article-title{
-    font-size: 20px;
-    line-height: 24px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 400;
+.article-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: FinancierDisplayWeb, sans-serif;
 }
 
-.article-summary{
-    font-size: 16px;
-    line-height: 20px;
-    color: #66605c;
-    margin-top: 20px;
+.article-summary {
+  font-size: 16px;
+  line-height: 20px;
+  color: #66605c;
+  margin-top: 15px;
+  font-family: MetricWeb, sans-serif;
 }
 
-.article-date{
-    font-size: 12px;
-    line-height: 20px;
-    color: #66605c;
+.article-date {
+  font-size: 12px;
+  line-height: 20px;
+  color: #66605c;
+  font-family: MetricWeb, sans-serif;
 }
